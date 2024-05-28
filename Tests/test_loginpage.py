@@ -1,16 +1,15 @@
-import time
 from Pages.LoginPage import LoginPage
+from Utilities.readProperties import ReadConfig
 
 
 class Test_001_login:
-    base_URL = "https://admin-demo.nopcommerce.com/"
-    username = "admin@yourstore.com"
-    password = "admin"
+    base_URL = ReadConfig.get_application_url()
+    username = ReadConfig.get_user_email()
+    password = ReadConfig.get_password()
     dashboard = "https://admin-demo.nopcommerce.com/admin/"
 
     def test_home_page_title(self, setup):
         self.driver = setup
-
         self.driver.get(self.base_URL)
         actual_title = self.driver.title
         if actual_title == "Your store. Login":
@@ -20,11 +19,9 @@ class Test_001_login:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_home_page_title_failed.png")
             assert False
         self.driver.close()
-        time.sleep(5)
 
     def test_login_positive(self, setup):
         self.driver = setup
-
         self.driver.get(self.base_URL)
         self.lp = LoginPage(self.driver)
         self.lp.setUserName(self.username)
