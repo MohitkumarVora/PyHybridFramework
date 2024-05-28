@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="Create HybridFramework for Python selenium" />
+    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="add file in git">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,28 +23,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2h5M1HbQveBOHmuCjZSdNPZlbhb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_loginpage.Test_001_Login.executor": "Run",
-    "Python tests.Python tests for test_loginpage.Test_001_Login.test_login.executor": "Run",
-    "Python tests.Python tests for test_loginpage.Test_001_Login.test_loginpage.executor": "Run",
-    "Python tests.Python tests for test_loginpage.Test_001_login.test_home_page_title.executor": "Run",
-    "Python tests.Python tests for test_loginpage.Test_001_login.test_login.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Mohit/PycharmProjects/PyHybridFramework",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_loginpage.Test_001_Login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_loginpage.Test_001_Login.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_loginpage.Test_001_Login.test_loginpage.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_loginpage.Test_001_login.test_home_page_title.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_loginpage.Test_001_login.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mohit/PycharmProjects/PyHybridFramework&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test_loginpage.Test_001_login.test_login">
     <configuration name="Python tests for test_loginpage.Test_001_Login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyHybridFramework" />
@@ -160,11 +165,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716897446968</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add file in git">
+      <option name="closed" value="true" />
+      <created>1716897929579</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716897929579</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create HybridFramework for Python selenium" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create HybridFramework for Python selenium" />
+    <MESSAGE value="add file in git" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file in git" />
   </component>
 </project>
