@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="add file in git">
+    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="add config.ini file and also create readproperties file and integrate with test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/test_loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_loginpage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716897929579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add config.ini file and also create readproperties file and integrate with test">
+      <option name="closed" value="true" />
+      <created>1716922090208</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716922090208</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +217,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create HybridFramework for Python selenium" />
     <MESSAGE value="add file in git" />
-    <option name="LAST_COMMIT_MESSAGE" value="add file in git" />
+    <MESSAGE value="add config.ini file and also create readproperties file and integrate with test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add config.ini file and also create readproperties file and integrate with test" />
   </component>
 </project>
