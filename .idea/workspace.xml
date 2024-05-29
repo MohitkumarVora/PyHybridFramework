@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="add config.ini file and also create readproperties file and integrate with test">
+    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="Add customlogger and add desired browser test run">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/test_home_page_title_passed.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/test_home_page_title_passed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/test_login_positive_passed.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/test_login_positive_passed.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/test_loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_loginpage.py" afterDir="false" />
     </list>
@@ -200,8 +202,19 @@
       <option name="project" value="LOCAL" />
       <updated>1716922090208</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add customlogger and add desired browser test run">
+      <option name="closed" value="true" />
+      <created>1716966701859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716966701859</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -218,6 +231,7 @@
     <MESSAGE value="Create HybridFramework for Python selenium" />
     <MESSAGE value="add file in git" />
     <MESSAGE value="add config.ini file and also create readproperties file and integrate with test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add config.ini file and also create readproperties file and integrate with test" />
+    <MESSAGE value="Add customlogger and add desired browser test run" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add customlogger and add desired browser test run" />
   </component>
 </project>

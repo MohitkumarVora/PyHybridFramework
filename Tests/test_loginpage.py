@@ -12,8 +12,8 @@ class Test_001_login:
 
     def test_home_page_title(self, setup):
 
-        self.logger.info("-------------------Test_001_Login---------------------")
-        self.logger.info("-------------------Verifying Home Page Title----------")
+        self.logger.info("-------------Test_001_Login---------------------")
+        self.logger.info("-------------Verifying Home Page Title----------")
         self.driver = setup
         self.driver.get(self.base_URL)
         actual_title = self.driver.title
@@ -29,7 +29,7 @@ class Test_001_login:
 
     def test_login_positive(self, setup):
 
-        self.logger.info("------------Verifying Login Test--------------")
+        self.logger.info("-------------Verifying Login Test--------------")
         self.driver = setup
         self.driver.get(self.base_URL)
         self.lp = LoginPage(self.driver)
@@ -40,9 +40,9 @@ class Test_001_login:
         if actual_dashboard_url == self.dashboard:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_login_positive_passed.png")
             assert True
-            self.logger.info("-------------------Login Test is Passed----------")
+            self.logger.info("-------------Login Test is Passed----------")
         else:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_login_positive_failed.png")
-            self.logger.info("-------------------Login Test is Passed----------")
+            self.logger.info("-------------Login Test is Passed----------")
             assert False
         self.driver.close()
