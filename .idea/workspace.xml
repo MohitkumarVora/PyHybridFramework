@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="Add customlogger and add desired browser test run">
+    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="Add pytest html report generation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/test_home_page_title_passed.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/test_home_page_title_passed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Screenshots/test_login_positive_passed.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/test_login_positive_passed.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_loginpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/customLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/customLogger.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +59,14 @@
     &quot;Python tests.Python tests for test_loginpage.Test_001_login.test_login_positive.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mohit/PycharmProjects/PyHybridFramework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mohit/PycharmProjects/PyHybridFramework/TestData&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mohit\PycharmProjects\PyHybridFramework\TestData" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mohit\PycharmProjects\PyHybridFramework\Configurations" />
     </key>
@@ -210,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716966701859</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add pytest html report generation">
+      <option name="closed" value="true" />
+      <created>1716976426596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716976426596</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -232,6 +243,7 @@
     <MESSAGE value="add file in git" />
     <MESSAGE value="add config.ini file and also create readproperties file and integrate with test" />
     <MESSAGE value="Add customlogger and add desired browser test run" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add customlogger and add desired browser test run" />
+    <MESSAGE value="Add pytest html report generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add pytest html report generation" />
   </component>
 </project>
