@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="Create Data driven testing setup">
+    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="update customlogger file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilities/customLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/customLogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/test_login_positive_passed.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/test_login_positive_passed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_loginpage_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_loginpage_ddt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/XLUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/XLUtils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716989861049</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update customlogger file">
+      <option name="closed" value="true" />
+      <created>1717051132484</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717051132484</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -251,6 +261,7 @@
     <MESSAGE value="Add customlogger and add desired browser test run" />
     <MESSAGE value="Add pytest html report generation" />
     <MESSAGE value="Create Data driven testing setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Data driven testing setup" />
+    <MESSAGE value="update customlogger file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update customlogger file" />
   </component>
 </project>
