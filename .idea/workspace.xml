@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="Add pytest html report generation">
+    <list default="true" id="872964ed-8aed-477f-bc6e-504356a0df2d" name="Changes" comment="Create Data driven testing setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/test_login_positive_passed.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/test_login_positive_passed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utilities/customLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/customLogger.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -221,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716976426596</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create Data driven testing setup">
+      <option name="closed" value="true" />
+      <created>1716989861049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716989861049</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -244,6 +250,7 @@
     <MESSAGE value="add config.ini file and also create readproperties file and integrate with test" />
     <MESSAGE value="Add customlogger and add desired browser test run" />
     <MESSAGE value="Add pytest html report generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pytest html report generation" />
+    <MESSAGE value="Create Data driven testing setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Data driven testing setup" />
   </component>
 </project>
