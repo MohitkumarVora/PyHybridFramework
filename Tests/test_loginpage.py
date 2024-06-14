@@ -1,6 +1,6 @@
 from Pages.LoginPage import LoginPage
 from Utilities.readProperties import ReadConfig
-from Utilities.customLogger import LogGen
+from Utilities.customLogger import setup_logger
 
 
 class Test_001_login:
@@ -8,7 +8,7 @@ class Test_001_login:
     username = ReadConfig.get_user_email()
     password = ReadConfig.get_password()
     dashboard = "https://admin-demo.nopcommerce.com/admin/"
-    logger = LogGen.loggen()
+    logger = setup_logger()
 
     def test_home_page_title(self, setup):
 
@@ -33,9 +33,9 @@ class Test_001_login:
         self.driver = setup
         self.driver.get(self.base_URL)
         self.lp = LoginPage(self.driver)
-        self.lp.setUserName(self.username)
-        self.lp.setPassword(self.password)
-        self.lp.clickLogin()
+        self.lp.set_username(self.username)
+        self.lp.set_password(self.password)
+        self.lp.click_login()
         actual_dashboard_url = self.driver.current_url
         if actual_dashboard_url == self.dashboard:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_login_positive_passed.png")
